@@ -1,8 +1,7 @@
-function Pull(){
- 
-   let bname = document.getElementById("brand").value;
-   let bdomain = document.getElementById("domain").value;
-   let pname = document.getElementById("product").value;
+function Call(){
+  let bname = document.getElementById("brand").value;
+  let bdomain = document.getElementById("domain").value;
+  let pname = document.getElementById("product").value;
   let disc = document.getElementById("discount").value;
   let dd = 
 document.getElementById("details").value;
