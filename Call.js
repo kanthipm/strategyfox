@@ -4,9 +4,10 @@ function Call(){
   let pname = document.getElementById("product").value;
   let disc = document.getElementById("discount").value;
   let dd = document.getElementById("details").value;
+  var prompt = "test";
   if(disc == "Yes")
   {
-  let prompt = "Create an Instagram Marketing post for " 
+   prompt = "Create an Instagram Marketing post for " 
     + bname 
     + ". They are currenlty trying to promote thier product " 
     + pname 
@@ -20,7 +21,7 @@ function Call(){
   }
   else
   {
-      let prompt = "Create an Instagram Marketing post for " 
+      prompt = "Create an Instagram Marketing post for " 
     + bname 
     + ". They are currenlty trying to promote thier product " 
     + pname 
