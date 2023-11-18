@@ -30,5 +30,5 @@ function Call(){
     + " in the post."
   }
 
-  fetch(https://diigtest.openai.azure.com/).then(response => {return response.text()}).then(reply => {document.getElementById('result').src = reply})
+  fetch("https://diigtest.openai.azure.com/").then(response => {return response.text()}).then(reply => {document.getElementById('result').src = reply})
 }
