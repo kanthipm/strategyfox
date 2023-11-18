@@ -17,7 +17,6 @@ function Call(){
     + ". Make sure to include their domain name "
     + bdomain 
     + " in the post."
-  console.log(text);
   }
   else
   {
