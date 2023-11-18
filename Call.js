@@ -29,11 +29,10 @@ function Call(){
     + " in the post."
   }
 
-  fetch("https://diigtest.openai.azure.com/").then(response => {return response.text()}).then(reply => {document.getElementById('result').src = reply})
 
   const url = "https://diigtest.openai.azure.com/openai/deployments/gpt-35-turbo-default/completions?api-version=2023-05-15";
 
-  const data = `{"prompt":"create a 200 word post",
+  const data = `{"prompt": prompt,
   "max_tokens":106}`;
   
   fetch(url, {
@@ -43,7 +42,7 @@ function Call(){
           'api-key': '6280d74bdb2d4afd8ee1c4442e3d1c90',
       },
       body: data,
-  }).then(response => {return response.text()}).then(reply => {document.getElementById('result').innerText = reply});
+  }).then(response => {return response.json().choices[0].text}).then(reply => {document.getElementById('result').innerText = reply});
   
 
 }
