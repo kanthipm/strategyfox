@@ -3,31 +3,50 @@
 
 <head>
     <META http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <style></style>
     <script src = "./Call.js"></script>
+    <style>
+    input {
+      width: 90%;
+      padding: 14px;
+      margin:15px;
+      outline: none;
+      color: #acacac;
+      opacity: 1;
+      font-size:16px;
+      border-color: hsla(0,0%,100%,.1);
+      background-color: #060606; 
+      border-radius: 10px; 
+      width:500px;
+      height:50px;
+    }
+    input::placeholder {
+      color: #acacac;
+      opacity: 1;
+      font-size:16px;
+      font-family:sans-serif
+    }
+    body {
+      background-color:#060606; 
+      font-family: sans-serif; 
+    }
+    </style>
 </head>
 
 <body>
         <p>
-            <label>Brand Name: <input type="text" id="brand"></label>
+            <label><input type="text"; id="brand"; placeholder= " Brand Name"; style="margin-top:40px"></label>
         </p>
         <p>
-            <label>Industry: <input type="text" id="industry"></label>
+            <label> <input type="text"; id="industry" placeholder= " Industry"></label>
         </p>
         <p>
-            <label>Product Name: <input type="text" id="product"></label>
+            <label> <input type="text"; id="product";  placeholder= " Product Name"></label>
         </p>
         <p>
-            <label>Discount: <select id="discount" multiple>
-        <option value="Yes">Yes</option>
-        <option value="follower">No</option>
-      </select></label>
+            <label> <input type="text"; id="details";  placeholder= " (Optional) Details for Product Discount"></label>
         </p>
         <p>
-            <label>If yes, enter discount details: <textarea id="details"></textarea></label>
-        </p>
-        <p>
-            <button onclick = "Call();">Submit</button>
+            <button onclick = "Call();" style = "background-image: linear-gradient(95deg, #6549d5 4%, #e33fa1 75%, #fb5343 100%); width: 175px; height:55px; font-size: 18px; color: white; margin-top: 15px; font-family: sans-serif; border-radius: 35px; border: none;" >Submit</button>
         </p>
         <p>
             <textarea id="result" rows="4" cols="50" readonly></textarea>
