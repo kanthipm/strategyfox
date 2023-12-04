@@ -2,7 +2,7 @@ function Call(){
   let bname = document.getElementById("brand").value;
   let industry = document.getElementById("industry").value;
   let pname = document.getElementById("product").value;
-  let disc = documnet.getElementById("discount").value;
+  let disc = document.getElementById("discount").value;
   let dd = document.getElementById("details").value;
   var prompt = "test";
   if(disc == "Yes")
@@ -33,7 +33,8 @@ function Call(){
 
   const url = "https://diigtest.openai.azure.com/openai/deployments/gpt-35-turbo-default/completions?api-version=2023-05-15";
 
-  const data = `{"prompt": "${prompt}"}`;
+  const data = `{"prompt": "${prompt}",
+  "max_tokens":106}`;
   
   fetch(url, {
       method: 'POST',
