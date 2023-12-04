@@ -7,9 +7,9 @@ function Call(){
   var prompt = "test";
   if(disc == "Yes")
   {
-   prompt = "Create an social media request for " 
+   prompt = "Create an social media caption for " 
     + bname 
-    + ". They are currenlty trying to promote thier product " 
+    + ". They are currently trying to promote their product " 
     + pname 
     + ". To do so they are running a promotion. Their product "
     + pname 
@@ -21,9 +21,9 @@ function Call(){
   }
   else
   {
-      prompt = "Create an social media request for " 
+      prompt = "Create an social media caption for " 
     + bname 
-    + ". They are currenlty trying to promote thier product " 
+    + ". They are currently trying to promote their product " 
     + pname 
     + ". Make sure to include their industry "
     + industry 
