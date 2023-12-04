@@ -1,28 +1,36 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<form name="Social Media Marketing Machine" method="POST" data-netlify="true">   
- </p>
-      <label>Brand Name: <input id = "brand"></input>
-    </p>
-    <p>
-      <label>Brand Domain: <input id = "domain"></input>
-    </p>
-    <p>
-      <label>Product Name: <input id = "product"></input>
-    </p>
-    <p>
-<label> Discount: <select multiple name="discount" id="discount">
-      <option>Yes</option>
-      <option>No</option>value="follower">No</option>
+<html>
+
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style></style>
+    <script src = "./Call.js"></script>
+</head>
+
+<body>
+        <p>
+            <label>Brand Name: <input type="text" id="brand"></label>
+        </p>
+        <p>
+            <label>Industry: <input type="text" id="industry"></label>
+        </p>
+        <p>
+            <label>Product Name: <input type="text" id="product"></label>
+        </p>
+        <p>
+            <label>Discount: <select id="discount" multiple>
+        <option value="Yes">Yes</option>
+        <option value="follower">No</option>
       </select></label>
-    </p>
-    <p>
-      <label>If yes, enter discount details: <input id = "details"></input>
-    </p>
-    <p>
-<button onclick = "Pull();">Submit</button>
-</form>
+        </p>
+        <p>
+            <label>If yes, enter discount details: <textarea id="details"></textarea></label>
+        </p>
+        <p>
+            <button onclick = "Call();">Submit</button>
+        </p>
+        <p>
+            <textarea id="result" rows="4" cols="50" readonly></textarea>
+</body>
 
-
-        
-           
-
+</html>
