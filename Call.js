@@ -2,6 +2,7 @@ function Call(){
   let bname = document.getElementById("brand").value;
   let industry = document.getElementById("industry").value;
   let pname = document.getElementById("product").value;
+  let disc = documnet.getElementById("discount").value;
   let dd = document.getElementById("details").value;
   var prompt = "test";
   if(disc == "Yes")
