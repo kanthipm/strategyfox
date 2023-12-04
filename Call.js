@@ -7,7 +7,7 @@ function Call(){
   var prompt = "test";
   if(disc == "Yes")
   {
-   prompt = "Create an Instagram Marketing post for " 
+   prompt = "Create an social media request for " 
     + bname 
     + ". They are currenlty trying to promote thier product " 
     + pname 
@@ -21,7 +21,7 @@ function Call(){
   }
   else
   {
-      prompt = "Create an Instagram Marketing post for " 
+      prompt = "Create an social media request for " 
     + bname 
     + ". They are currenlty trying to promote thier product " 
     + pname 
