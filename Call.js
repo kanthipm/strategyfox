@@ -35,7 +35,7 @@ function Call(){
 
   const data = `{"prompt": "${prompt}",
   "max_tokens":106}`;
-  
+  console.log(data);
   fetch(url, {
       method: 'POST',
       headers: {
