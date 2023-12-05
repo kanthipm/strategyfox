@@ -17,7 +17,7 @@ function Call(){
     + dd 
     + ". Make sure to include their industry "
     + industry 
-    + " in the post. Only include caption. Do not include instructions or extra information in the output."
+    + " in the post. Only include caption. Do not include instructions in the output."
   }
   else
   {
@@ -27,7 +27,7 @@ function Call(){
     + pname 
     + ". Make sure to include their industry "
     + industry 
-    + " in the post. Only include caption. Do not include instructions or extra information in the output."
+    + " in the post. Only include caption. Do not include instructions in the output."
   }
 
 
