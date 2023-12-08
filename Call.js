@@ -7,7 +7,7 @@ function Call(){
   var prompt = "test";
   if(disc == "Yes")
   {
-   prompt = "Create a 75 word social media caption for " 
+   prompt = "Create an social media caption for " 
     + bname 
     + ". They are currently trying to promote their product " 
     + pname 
@@ -21,7 +21,7 @@ function Call(){
   }
   else
   {
-      prompt = "Create a 75 word social media caption for " 
+      prompt = "Create an social media caption for " 
     + bname 
     + ". They are currently trying to promote their product " 
     + pname 
@@ -31,10 +31,10 @@ function Call(){
   }
 
 
-  const url = "https://diigtest.openai.azure.com/openai/deployments/gpt-35-turbo-default/chat/completions?api-version=2023-07-01-preview";
+  const url = "https://diigtest.openai.azure.com/openai/deployments/gpt-35-turbo-default/chat/completions?api-version=2023-07-01";
 
   const data = `{"prompt": "${prompt}",
-  "max_tokens":100}`;
+  "max_tokens":106}`;
   
   fetch(url, {
       method: 'POST',
