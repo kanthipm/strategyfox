@@ -43,7 +43,7 @@ function Call(){
           'api-key': '6280d74bdb2d4afd8ee1c4442e3d1c90',
       },
       body: data,
-  }).then(response => {return response.json()}).then(res=>{return res.choices[0].text}).then(reply => {document.getElementById('result').innerText = reply});
+  }).then(response => {return response.json()}).then(reply => {document.getElementById('result').innerText = reply});
   
 
 }
