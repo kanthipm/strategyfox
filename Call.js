@@ -31,7 +31,7 @@ function Call(){
   }
 
 
-  const url = "https://diigtest.openai.azure.com/openai/deployments/gpt-35-turbo-default/chat/completions?api-version=2023-07-01-preview";
+  const url = "https://diigtest.openai.azure.com/openai/deployments/gpt-35-turbo-default/chat/completions?api-version=2023-07-01";
 
   const data = `{"prompt": "${prompt}",
   "max_tokens":106}`;
