@@ -7,7 +7,7 @@ function Call(){
   var prompt = "test";
   if(disc == "Yes")
   {
-   prompt = "Create an social media caption for " 
+   prompt = "Create a 75 word or less social media caption for " 
     + bname 
     + ". They are currently trying to promote their product " 
     + pname 
@@ -21,7 +21,7 @@ function Call(){
   }
   else
   {
-      prompt = "Create an social media caption for " 
+      prompt = "Create a 75 word or less social media caption for " 
     + bname 
     + ". They are currently trying to promote their product " 
     + pname 
