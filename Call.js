@@ -34,7 +34,7 @@ function Call(){
   const url = "https://diigtest.openai.azure.com/openai/deployments/gpt-35-turbo-default/chat/completions?api-version=2023-07-01-preview";
 
   const data = `{"prompt": "${prompt}",
-  "max_tokens":1000}`;
+  "max_tokens":100}`;
   
   fetch(url, {
       method: 'POST',
